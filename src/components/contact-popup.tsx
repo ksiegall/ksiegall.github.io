@@ -16,8 +16,8 @@ export default function ContactPopup(props: any) {
             <textarea className="p-1 rounded-md h-20 resize-none" placeholder="Message" /> */}
             <div className="flex flex-row align-center justify-center gap-6 sm:gap-12 text-2xl mt-4">
                 <a title="Resume" href="/resume.pdf" target="_blank"><BsFileEarmarkPdfFill /></a>
-                <a title="LinkedIn" href="https://linkedin.com/in/matticoli" target="_blank"><BsLinkedin /></a>
-                <a title="GitHub" href="https://github.com/matticoli" target="_blank"><BsGithub /></a>
+                <a title="LinkedIn" href="https://linkedin.com/in/kevin-siegall" target="_blank"><BsLinkedin /></a>
+                <a title="GitHub" href="https://github.com/ksiegall" target="_blank"><BsGithub /></a>
             </div>
         </div>
         <button className="sticky bottom-0 mt-[-64px] ml-auto z-50 mr-10 hover:scale-125 " onClick={() => setOpen(!open)}>

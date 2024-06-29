@@ -27,8 +27,8 @@ export default function PageContainer(props: any) {
 				<p className="mb-2">©️2024 Kay Siegall</p>
 				<div className="flex flex-row justify-center align-center gap-4">
 					<a href="/resume.pdf"><BsFileEarmarkPdfFill /></a>
-					<a href="https://linkedin.com/in/matticoli"><BsLinkedin /></a>
-					<a href="https://github.com/matticoli"><BsGithub /></a>
+					<a href="https://linkedin.com/in/kevin-siegall"><BsLinkedin /></a>
+					<a href="https://github.com/ksiegall"><BsGithub /></a>
 				</div>
 				<div className="w-full">
 				</div>
