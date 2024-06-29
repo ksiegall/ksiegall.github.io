@@ -6,7 +6,7 @@ import { getProjectData, getProjectPaths } from '../api/projects-static'
 import Badge from './../../components/badge';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import {EffectFlip, Navigation, Pagination } from 'swiper/modules';
-import { Project } from './../api/projects-static';
+import { Project } from '../api/projects-static';
 
 const iconClass= "text-primary inline ml-2 mb-1"
 const iconButton= "text-primary ml-2 mb-1 text-white"

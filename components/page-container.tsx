@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import ContactPopup from '../components/contact-popup'
-import Fireflies from '../components/fireflies'
-import Nav from '../components/nav'
+import ContactPopup from './contact-popup'
+import Fireflies from './fireflies'
+import Nav from './nav'
 import { BsFileEarmarkPdfFill, BsGithub } from 'react-icons/bs';
 import { BsLinkedin } from 'react-icons/bs';
 
