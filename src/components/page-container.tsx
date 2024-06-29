@@ -9,7 +9,7 @@ export default function PageContainer(props: any) {
 	return <>
 		<div style={{fontFamily: 'Montserrat'}} className="flex min-h-screen flex-col items-center justify-center bg-slate-900 text-white">
 			<Head>
-				<title>Mikel Matticoli</title>
+				<title>Kay Siegall</title>
 				<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 				<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
 				<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -24,7 +24,7 @@ export default function PageContainer(props: any) {
 			<ContactPopup />
 			<footer className="flex flex-col justify-center items-center h-24 w-full bg-black z-30 opacity-80 p-5">
 				<span className="absolute sm:mt-[-12px] mb-40 right-20 w-40 z-10 animate-bounce">Contact me 👉</span> 
-				<p className="mb-2">©️2023 Mikel Matticoli.</p>
+				<p className="mb-2">©️2024 Kay Siegall</p>
 				<div className="flex flex-row justify-center align-center gap-4">
 					<a href="/resume.pdf"><BsFileEarmarkPdfFill /></a>
 					<a href="https://linkedin.com/in/matticoli"><BsLinkedin /></a>
