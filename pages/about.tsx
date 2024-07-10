@@ -26,17 +26,21 @@ const About: NextPage = () => {
             </div>
           </div>
           <div className="text-left">
-            <p className="text-md p-5">I enjoy crafting experiences of all kinds: from websites, software, robots and escape rooms to handmade crafts and cooking/baking. I find joy in things created by others too – particularly food, games, and stories, especially when they provide shared experiences with friends or family.</p>
-            <p className="text-md p-5">Professionally, I've had the privilege of working with many great people to design and build software solutions for a variety of audiences, scalable and sustainable technical infrastructure, and interactive experiences that people around the world have connected with.</p>
+            <p className="text-md p-5">Hey! I'm a Senior at WPI studying Computer Science and Robotics Engineering! 
+                        I specialize in robotics controls and navigation, but I also dabble in Reinforcement Learning and AI, particularly for silly applications. 
+                        I also create games in my free time for Game Jams that are held on campus.</p>
+            <br />
+            <p className="text-md p-5">I am looking for a full-time position beginning after my graduation in May 2025. 
+              I am interested in finding work that matches my experience while leaving room for my skills to develop over time.</p>
           </div>
         </CardInner>
       </CardOuter>
       <CardOuter reverse>
         <CardInner className="flex flex-col justify-center items-center" reverse>
           <div className="p-4 flex flex-col sm:flex-row gap-2 justify-center" >
-            <img className="ml-auto mr-auto max-w-20 w-20" src="/assets/day22-owl.png" />
+            {/* <img className="ml-auto mr-auto max-w-20 w-20" src="/assets/day22-owl.png" /> */}
             <h3 className="text-primary text-lg sm:text-2xl mt-auto mb-auto">
-              Looking for my resume? Here it is!
+              See my resume here!
             </h3>
           </div>
           <div className="flex flex-row gap-5 m-5 justify-center">
