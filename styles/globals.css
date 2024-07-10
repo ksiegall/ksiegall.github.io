@@ -88,7 +88,7 @@ body {
         }
 
         100% {
-            box-shadow: 0 0 5px 5px rgb(115, 0, 255), inset 0 0 5px 5px cyargb(115, 0, 255)n;
+            box-shadow: 0 0 5px 5px rgb(115, 0, 255), inset 0 0 5px 5px rgb(115, 0, 255);
             background-position-y: 0px 0px;
         }
     }
