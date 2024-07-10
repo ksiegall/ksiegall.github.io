@@ -41,10 +41,10 @@ const About: NextPage = () => {
           </div>
           <div className="flex flex-row gap-5 m-5 justify-center">
             <Button className="w-20 sm:w-80 flex flex-row justify-center m-auto gap-2 text-lg" href="/resume.pdf"><FaFilePdf className="mt-auto mb-auto" /><span className="hidden sm:block">PDF Download</span></Button>
-            <Button className="w-20 sm:w-80 flex flex-row justify-center m-auto gap-2 text-lg" href="https://linkedin.com/in/matticoli"><FaLinkedin className="mt-auto mb-auto" /><span className="hidden sm:block">LinkedIn</span></Button>
+            <Button className="w-20 sm:w-80 flex flex-row justify-center m-auto gap-2 text-lg" href="https://www.linkedin.com/in/kevin-siegall/"><FaLinkedin className="mt-auto mb-auto" /><span className="hidden sm:block">LinkedIn</span></Button>
           </div>
           <div className="w-full sm:w-10/12 h-[70vw]">
-            <Document file="/resume.pdf" />
+            <iframe className="w-full sm:w-10/12 h-[70vw]" src="https://drive.google.com/file/d/1jU0WeznepiBbRuqK5mTLRO-7Mr4zdjsH/preview">Failed to load resume - download <a href="/resume.pdf" target="_blank">here</a></iframe>
           </div>
         </CardInner>
       </CardOuter>
