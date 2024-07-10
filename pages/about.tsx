@@ -3,7 +3,6 @@ import PageContainer from '../components/page-container'
 import { CardInner, CardOuter } from '../components/card'
 import { FaFilePdf, FaLinkedin, FaQuestionCircle } from "react-icons/fa";
 import Button from '../components/button';
-import { Document } from 'react-pdf'
 
 const About: NextPage = () => {
   return <>
