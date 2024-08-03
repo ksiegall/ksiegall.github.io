@@ -46,7 +46,7 @@ const YouTubeEmbed = ({src} : any) => {
 }
 
 const VideoEmbed = ({src} : any) => {
-    return <video controls style={{maxWidth: "80%", margin: "auto", marginBottom: 30, height: "100%"}} src="/path/to/your/video.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+    return <video controls style={{maxWidth: "80%", margin: "auto", marginBottom: 30, height: "100%"}} src={src} type="video/mp4">Your browser does not support the video tag.</video>
 }
 
 const ProjectPage: NextPage<ProjectProps> = ({project}) => {
