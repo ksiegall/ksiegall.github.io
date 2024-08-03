@@ -7,7 +7,11 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#230f2a",
+      }
+    },
     fontFamily: {
       'sans': ['Helvetica', 'Arial', 'sans-serif'],
     }

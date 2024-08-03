@@ -32,7 +32,7 @@ const Home: NextPage = (props: any) => {
             </div>
             <div className="mt-3 text-sm sm:text-lg ml-5 mr-5 flex flex-col gap-4 mb-5">
               <p>
-                I’m a Full Stack Engineer & UX Designer with a passion for making things and helping others.
+                I’m a Roboticist and Software Engineer with a passion for making things (both silly and practical).
               </p>
             </div>
           </CardInner>
