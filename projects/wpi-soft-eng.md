@@ -22,6 +22,7 @@ responsibilities: Class Structure, Front-End Development, Database Interaction (
 team_size: 11
 status: Completed May 3, 2023
 timeline: Mar 2023 - May 2023
+achievements: []
 media:
   - ["/assets/wpi-soft-eng-trailer.mp4", "The trailer for our hospital application."]
   - ["/assets/wpi-soft-eng-team.png", "The 11 members of my team for WPI's Soft Eng class"]
