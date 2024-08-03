@@ -117,9 +117,9 @@ const ProjectPage: NextPage<ProjectProps> = ({project}) => {
                                 {t[0].includes("png") || t[0].includes("jpg") ? 
                                     <img style={{maxWidth: "80%", margin: "auto", marginBottom: 30}} src={t[0]} alt={t[1]} /> :
                                  t[0].includes("youtu") ? 
-                                    <YouTubeEmbed src={t[0]}>Failed to load video</YouTubeEmbed> :
+                                    <YouTubeEmbed src={t[0]} /> :
                                  t[0].includes("mp4") ?
-                                    <VideoEmbed src={t[0]}>Failed to load video</VideoEmbed> :
+                                    <VideoEmbed src={t[0]} /> :
                                  "Unrecognized media type "+t[0]
                                 }
                             </SwiperSlide>
