@@ -7,11 +7,13 @@ import Badge from './../../components/badge';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import {EffectFlip, Navigation, Pagination } from 'swiper/modules';
 import { Project } from '../api/projects-static';
+import React from 'react';
 
 const iconClass= "text-primary inline ml-2 mb-1"
 const iconButton= "text-primary ml-2 mb-1 text-white"
 const iconMap : Record<string, JSX.Element> = {
     "Website": <div className="p-4 rounded-lg bg-primary"><FaLink /></div>,
+    "Github": <div className="p-4 rounded-lg bg-primary"><FaLink /></div>,
     "Steam": <div style={{backgroundColor: '#422c59'}} className={iconButton+" p-4 rounded-lg text-xl"}><FaSteam /></div>,
     "Paper": <div style={{backgroundColor: '#230F2A'}} className={iconButton+" p-4 rounded-lg text-xl"}><FaBook /></div>,
     "windows": <FaWindows className={iconClass+" text-primary ml-auto mr-auto"} />,
@@ -104,6 +106,12 @@ const ProjectPage: NextPage<ProjectProps> = ({project}) => {
                                     <img style={{maxWidth: "80%", margin: "auto", marginBottom: 30}} src={t[0]} alt={t[1]} /> :
                                  t[0].includes("youtu") ? 
                                     <YouTubeEmbed src={t[0]}>Failed to load video</YouTubeEmbed> :
+                                 t[0].includes("mp4") ?
+                                    <video controls>
+                                        <video controls width="600">
+                                            <source src="/path/to/your/video.mp4" type="video/mp4" />
+                                            Your browser does not support the video tag.
+                                    </video> :
                                  "Unrecognized media type "+t[0]
                                 }
                             </SwiperSlide>

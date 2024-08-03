@@ -26,7 +26,7 @@ const About: NextPage = () => {
           </div>
           <div className="text-left">
             <p className="text-md p-5">Hey! I'm a Senior at WPI studying Computer Science and Robotics Engineering! 
-                        I specialize in robotics controls and navigation, but I also dabble in Reinforcement Learning and AI, particularly for silly applications. 
+                        I specialize in robotics controls and navigation, but I have also been dabbling in Reinforcement Learning and AI, particularly for silly applications. 
                         I also create games in my free time for Game Jams that are held on campus.</p>
             <br />
             <p className="text-md p-5">I am looking for a full-time position beginning after my graduation in May 2025. 
