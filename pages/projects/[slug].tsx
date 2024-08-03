@@ -45,9 +45,17 @@ const YouTubeEmbed = ({src} : any) => {
     return <iframe style={{maxWidth: "80%", margin: "auto", marginBottom: 30, height: "100%"}} title="YouTube video player" data-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="w-full h-full sm:min-h-[300px]" src={src} >Failed to load video</iframe>
 }
 
-const VideoEmbed = ({src} : any) => {
-    return <video controls style={{maxWidth: "80%", margin: "auto", marginBottom: 30, height: "100%"}} src={src} type="video/mp4">Your browser does not support the video tag.</video>
-}
+const VideoEmbed = ({ src }: { src: string }) => {
+    return (
+      <video
+        controls
+        style={{ maxWidth: "80%", margin: "auto", marginBottom: 30, height: "100%" }}
+      >
+        <source src={src} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    );
+  };
 
 const ProjectPage: NextPage<ProjectProps> = ({project}) => {
   return <>
