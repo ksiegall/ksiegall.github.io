@@ -15,7 +15,7 @@ const iconMap : Record<string, JSX.Element> = {
     "Website": <div className="p-4 rounded-lg bg-primary"><FaLink /></div>,
     "Github": <div className="p-4 rounded-lg bg-primary"><FaLink /></div>,
     "Steam": <div style={{backgroundColor: '#422c59'}} className={iconButton+" p-4 rounded-lg text-xl"}><FaSteam /></div>,
-    "Paper": <div style={{backgroundColor: '#230F2A'}} className={iconButton+" p-4 rounded-lg text-xl"}><FaBook /></div>,
+    "Paper": <div className={iconButton+"bg-primary p-4 rounded-lg text-xl"}><FaBook /></div>,
     "windows": <FaWindows className={iconClass+" text-primary ml-auto mr-auto"} />,
     "escape": <FaDoorOpen className={iconClass} />,
 };
