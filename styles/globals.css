@@ -8,6 +8,7 @@
 
 body {
     background-color: #230f2a;
+    --primary: #9b66b9;
     font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Montserrat', 'Helvetica Neue', sans-serif;
 }
 
