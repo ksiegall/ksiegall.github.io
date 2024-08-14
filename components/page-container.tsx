@@ -7,7 +7,7 @@ import { BsLinkedin } from 'react-icons/bs';
 
 export default function PageContainer(props: any) {
 	return <>
-		<div style={{fontFamily: 'Montserrat'}} className="flex min-h-screen flex-col items-center justify-center bg-slate-900 text-white">
+		<div style={{fontFamily: 'Montserrat', backgroundColor: "background-color"}} className="flex min-h-screen flex-col items-center justify-center text-white">
 			<Head>
 				<title>Kay Siegall</title>
 				<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />

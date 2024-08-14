@@ -1,6 +1,6 @@
 ---
 title: Brigham and Women's Hospital Application
-slug: cs3733-soft-eng
+slug: wpi-soft-eng
 cover: "/assets/wpi-soft-eng-icon.png"
 excerpt: Full Featured Kiosk Application for Brigham and Women's Hospital, made during WPI's CS 3733 Software Engineering class.
 roles: Lead Software Engineer
