@@ -9,8 +9,8 @@ tags:
   - ["Git", "#E94F36"]
   - ["Agile", "#121212"]
   - ["Java", "#121212"]
-  - ["JavaFX", "#1F4277"]
   - ["SQL", "#0000CC"]
+  - ["JavaFX", "#1F4277"]
   - ["Figma", "#1F4277"]
   - ["AWS", "#081A32"]
   - ["CSS", "#1F4277"]
@@ -27,7 +27,6 @@ media:
   - ["/assets/wpi-soft-eng-trailer.mp4", "The trailer for our hospital application."]
   - ["/assets/wpi-soft-eng-team.png", "The 11 members of my team for WPI's Soft Eng class"]
   - ["/assets/wpi-soft-eng-figma.jpg", "A Screenshot from our Figma Mockup of the UI, showing the application's homepage"]
-  - ["/assets/wpi-soft-eng-jira.png", "A Screenshot from our Jira page, showing some of our user stories from Iteration 3"]
 links:
   - ["Github", "https://github.com/ksiegall/Soft-Eng-Hospital-App"]
 
