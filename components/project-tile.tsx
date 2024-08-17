@@ -8,7 +8,7 @@ export default function ProjectTile(props: any) {
         <CardInner type="M" className="w-80 min-h-80 bg-[#2c2c2cCC] max-w-xxl sm:max-w-sm flex flex-row gap-1">
             <div className="flex-shrink flex flex-col max-w-xxl sm:max-w-sm w-80">
             <div className="w-80 p-2 mb-4 text-center bg-[#121212] text-sm font-bold rounded-sm">
-            {props.roles}
+            {props.title}
             </div>
             <a href={`/projects/${props.slug}`}>
                 <img    className="w-full max-w-80 rounded-sm border-2" 
