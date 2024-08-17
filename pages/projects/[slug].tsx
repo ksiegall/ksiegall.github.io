@@ -69,7 +69,7 @@ const ProjectPage: NextPage<ProjectProps> = ({project}) => {
         <div className="flex flex-col gap-4 lg:gap-2 lg:flex-row w-full sm:w-11/12 lg:w-10/12 mr-10 ml-10 mt-5 mb-5">
             <CardOuter override className="h-fit sm:flex-initial backdrop-blur-sm sm:min-w-[250px] w-full ml-auto mr-auto sm:w-full lg:w-[30%] ">
                 <CardInner type="" className="flex flex-col p-0 pl-0 pt-0 pb-0 pr-0 text-left">
-                    <h3 className="text-primary text-xs font-medium">Project Type
+                    <h3 className="text-primary text-xs font-medium">Project Type 
                         {iconMap[project.type_icon] || <FaDesktop className={iconClass} />}
                     </h3>
                     <p className="text-sm font-medium mb-5">{project.type}</p>
@@ -81,11 +81,20 @@ const ProjectPage: NextPage<ProjectProps> = ({project}) => {
                         <FaUsers className={iconClass} />
                     </h3>
                     <p className="text-md font-medium mb-5">{project.team_size}</p>
-                    <p className="text-sm font-medium mb-5">{project.responsibilities}</p>
+                    {/* <h3 className="text-primary text-xs font-medium">Additional Responsibilities
+                        <FaTasks className={iconClass} />
+                    </h3>
+                    <p className="text-sm font-medium mb-5">{project.responsibilities}</p> */}
                     <h3 className="text-primary text-xs font-medium">Timeline
                         <FaClock className={iconClass} />
                     </h3>
                     <p className="text-sm font-medium mb-5">{project.timeline}</p>
+                    {/* <h3 className="text-primary text-xs font-medium">Achievements
+                        <FaMedal className={iconClass} />
+                    </h3>
+                    <ul className="text-sm font-medium mb-5">{project.achievements.map(a => {
+                        return <li>• {a}</li>
+                    })}</ul> */}
 
                 </CardInner>
             </CardOuter>
