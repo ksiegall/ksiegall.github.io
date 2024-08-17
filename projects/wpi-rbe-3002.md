@@ -4,7 +4,7 @@ slug: wpi-rbe-3002
 cover: "/assets/wpi-soft-eng-icon.jpg"
 excerpt: Full Featured Kiosk Application for Brigham and Women's Hospital, made during WPI's CS 3733 Software Engineering class.
 roles: Lead Software Engineer
-color: "#1A0032"
+color: "#320032"
 tags:
   - ["Git", "#E94F36"]
   - ["Agile", "#121212"]

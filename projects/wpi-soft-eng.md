@@ -4,7 +4,7 @@ slug: wpi-soft-eng
 cover: "/assets/wpi-soft-eng-icon.jpg"
 excerpt: Full Featured Kiosk Application for Brigham and Women's Hospital, made during WPI's CS 3733 Software Engineering class.
 roles: Lead Software Engineer
-color: "#1A0032"
+color: "#320032"
 tags:
   - ["Git", "#E94F36"]
   - ["Agile", "#121212"]
@@ -24,9 +24,9 @@ status: Completed May 3, 2023
 timeline: Mar 2023 - May 2023
 achievements: []
 media:
-  - ["/assets/wpi-soft-eng-trailer.mp4", "The trailer for our hospital application."]
-  - ["/assets/wpi-soft-eng-team.png", "The 11 members of my team for WPI's Soft Eng class"]
-  - ["/assets/wpi-soft-eng-figma.jpg", "A Screenshot from our Figma Mockup of the UI, showing the application's homepage"]
+  - ["/assets/softeng/wpi-soft-eng-trailer.mp4", "The trailer for our hospital application."]
+  - ["/assets/softeng/wpi-soft-eng-team.png", "The 11 members of my team for WPI's Soft Eng class"]
+  - ["/assets/softeng/wpi-soft-eng-figma.jpg", "A Screenshot from our Figma Mockup of the UI, showing the application's homepage"]
 links:
   - ["Github", "https://github.com/ksiegall/Soft-Eng-Hospital-App"]
 
