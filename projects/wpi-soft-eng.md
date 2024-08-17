@@ -1,7 +1,7 @@
 ---
 title: Brigham and Women's Hospital Application
 slug: wpi-soft-eng
-cover: "/assets/wpi-soft-eng-icon.jpg"
+cover: "/assets/softeng/wpi-soft-eng-icon.jpg"
 excerpt: Full Featured Kiosk Application for Brigham and Women's Hospital, made during WPI's CS 3733 Software Engineering class.
 roles: Lead Software Engineer
 color: "#320032"
