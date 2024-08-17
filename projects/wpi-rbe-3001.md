@@ -1,7 +1,7 @@
 ---
 title: Automated Object Sorting with a 4-DOF Arm Robot
 slug: wpi-rbe-3001
-cover: "/assets/rbe3001-cover-icon.jpg"
+cover: "/assets/rbe3001/rbe3001-cover-icon.jpg"
 excerpt: A four-degree-of-freedom robotic arm programmed with a camera to sort balls by color.
 roles: Programmer
 color: "#320032"
@@ -9,14 +9,14 @@ tags:
   - ["Git", "#E94F36"]
   - ["MATLAB", "#121212"]
   - ["OpenCV", "#121212"]
-featured: true
-priority: 1
-type: PC Application
-type_icon: linux
+featured: false
+priority: 2
+type: Robot Control
+type_icon: Linux
 responsibilities: DH-Convention, Forward Kinematics, Inverse Kinematics, Jacobian
-team_size: 11
-status: Completed May 3, 2023
-timeline: Mar 2023 - May 2023
+team_size: 3
+status: Completed Oct 13, 2023
+timeline: Aug 2023 - Oct 2023
 achievements: []
 media:
   - ["/assets/rbe3001/rbe3001-cover-icon.jpg", "The robot arm in home position, out of the way of the camera."]
@@ -28,6 +28,6 @@ links:
 
 
 ## Description
-During my junior year of college, I took Robotics 3001: Manipulation. This is a course that focuses on the controls of multi-degree of freedom manupulators and the related mathematics. Our team of 3 was responsible for deriving the forward and inverse kinematics for our 4dof Arm, as well as implementing Velocity and Trajectory-based controls in both Joint Space and Task Space, over the course of the seven-week term.
+During my junior year of college, I took Robotics 3001: Manipulation. This is a course that focuses on the controls of multi-degree of freedom manupulators and the related mathematics. Our team was responsible for deriving the forward and inverse kinematics for our 4dof Arm, as well as implementing Velocity and Trajectory-based controls in both Joint Space and Task Space, over the course of the seven-week term.
 
 We utilized the Denavit-Hartenberg Convention for calculating the Forward Kinematics, and the full math and writeup for our report can be found in the linked report.

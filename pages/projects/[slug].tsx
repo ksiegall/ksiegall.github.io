@@ -12,10 +12,10 @@ import React from 'react';
 const iconClass= "text-primary inline ml-2 mb-1"
 const iconButton= "text-primary ml-2 mb-1 text-white"
 const iconMap : Record<string, JSX.Element> = {
-    "Website": <div className="p-4 rounded-lg bg-primary"><FaLink />Website</div>,
-    "Github": <div className="p-4 rounded-lg bg-primary"><FaLink />Github</div>,
-    "Steam": <div style={{backgroundColor: '#422c59'}} className={iconButton+" p-4 rounded-lg text-xl"}><FaSteam />Steam Page</div>,
-    "Paper": <div className={iconButton+"bg-primary p-4 rounded-lg text-xl"}><FaBook />Paper</div>,
+    "Website": <div className="p-4 rounded-lg bg-primary"><FaLink /></div>,
+    "Github": <div className="p-4 rounded-lg bg-primary"><FaLink /></div>,
+    "Steam": <div style={{backgroundColor: '#422c59'}} className={iconButton+" p-4 rounded-lg text-xl"}><FaSteam /></div>,
+    "Paper": <div className={iconButton+"bg-primary p-4 rounded-lg text-xl"}><FaBook /></div>,
     "windows": <FaWindows className={iconClass+" text-primary ml-auto mr-auto"} />,
     "escape": <FaDoorOpen className={iconClass} />,
 };
