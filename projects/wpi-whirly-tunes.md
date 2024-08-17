@@ -13,12 +13,10 @@ tags:
 featured: true
 priority: 1
 type: Robot
-type_icon: Physical
-responsibilities: Motor Control, Serial Communication
+type_icon: Windows
 team_size: 4
 status: Completed Dec 15, 2023
 timeline: Oct 2023 - Dec 2023
-achievements: []
 media:
   - ["/assets/whirly-tunes/whirly-tunes-single.jpg", "A single motor + tube assembly."]
   - ["/assets/whirly-tunes/whirly-tunes-demo.mp4", "A clip of us demoing our final robot to the class."]

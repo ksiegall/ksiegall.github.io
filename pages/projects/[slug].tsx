@@ -81,20 +81,11 @@ const ProjectPage: NextPage<ProjectProps> = ({project}) => {
                         <FaUsers className={iconClass} />
                     </h3>
                     <p className="text-md font-medium mb-5">{project.team_size}</p>
-                    <h3 className="text-primary text-xs font-medium">Additional Responsibilities
-                        <FaTasks className={iconClass} />
-                    </h3>
                     <p className="text-sm font-medium mb-5">{project.responsibilities}</p>
                     <h3 className="text-primary text-xs font-medium">Timeline
                         <FaClock className={iconClass} />
                     </h3>
                     <p className="text-sm font-medium mb-5">{project.timeline}</p>
-                    <h3 className="text-primary text-xs font-medium">Achievements
-                        <FaMedal className={iconClass} />
-                    </h3>
-                    <ul className="text-sm font-medium mb-5">{project.achievements.map(a => {
-                        return <li>• {a}</li>
-                    })}</ul>
 
                 </CardInner>
             </CardOuter>

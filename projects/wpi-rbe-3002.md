@@ -1,5 +1,5 @@
 ---
-title: Brigham and Women's Hospital Application
+title: Robot Navigation - SLAM and AMCL
 slug: wpi-rbe-3002
 cover: "/assets/rbe3002/rbe3002-cover-icon.jpg"
 excerpt: Full Featured Kiosk Application for Brigham and Women's Hospital, made during WPI's CS 3733 Software Engineering class.
@@ -10,37 +10,35 @@ tags:
   - ["ROS", "#121212"]
   - ["SLAM", "#121212"]
   - ["Python", "#1F4277"]
-  - ["Navigation", "#0000CC"]
+  - ["Navigation", "#121212"]
+  - ["WSL", "#121212"]
   - ["Linux", "#1F4277"]
 featured: true
 priority: 1
-type: PC Application
-type_icon: windows
-responsibilities: Class Structure, Front-End Development, Database Interaction (SQL)
-team_size: 11
+type: Robot
+type_icon: Linux
+team_size: 3
 status: Completed Dec 13, 2023
 timeline: Oct 2023 - Dec 2023
-achievements: []
 media:
-  - ["/assets//assets/rbe3002/", "The trailer for our hospital application."]
+  - ["/assets/rbe3002/rbe3002-map-still.jpg", "Zelda, our Turtlebot3, making its way through the maze"]
+  - ["/assets/rbe3002/rbe3002-mapping.mp4", "A video of our robot performing the mapping procedure"]
+  - ["/assets/rbe3002/rbe3002-rviz.mp4", "A video of what the robot sees while mapping, in 4x speed"]
+  - ["/assets/rbe3002/rbe3002-amcl.mp4", "An edited video of the robot solving the kidnapping problem"]
 links:
   - ["Paper", "/assets/rbe3002/wpi-rbe-3002-paper"]
 
 ---
 
 
-## Description
-During D-term of Sophmore Year, I took WPI's CS 3733 Software Engineering class. The class has a notorious reputation as one of the hardest classes at the school, due to the large team size and its very short iteration cycles. Through two prototypes and four iterations, each developed during week-long agile sprints, I was forced to learn how to manage a team of 11 developers as the team's Lead Software Engineer. Our resulting app used Java, with JavaFX for the UI/UX interactions, and SQL (including a AWS-hosted server) on the back end.
+# The Fastest Team
 
-The app we made was a program to be used at various kiosks around the hospital, to be used passively as signage, more actively for pathfinding around the hospital, or by staff to submit work orders or food delivery requests. To the right, you can see a trailer that we made for our app, which is used as a screensaver after a period of inactivity, which showcases some of the features that we implemented.
+Midway through my Junior Year at WPI, I took Unified Robotics IV: Navigation. This course focus on concepts very commonly found in robotics: localization, path planning, and navigation. To do so, we utilized the Turtlebot3 robot, along with its LiDAR scanner. Our goal was to program the robot using the Robotic Operating System (ROS) to autonomously map an environment, return to the starting point, and then navigate to any point we command within the map. Afterwards, we were to perform the "kidnapping problem", where the robot is then placed in an unknown location within the map, and told to drive to some other location. The robot is to determine where it is on the map, and then manage to navigate to this new target. The team whose robot completed these steps the fastest were granted extra credit.
 
+Our team consisted of three insanely talented and dedicated members who were a pleasure to work with. The experience was both challenging and enjoyable, as we not only completed the assigned task but also used the remaining time to experiment with additional features, such as localizing without any physical movement. For every little bit we wrote custom ROS launch files. Additionally, two of us opted to run everything on Windows Subsystem for Linux (WSL) rather than Ubuntu, purely for the fun of the challenge and to avoid dual-booting our personal computers.
 
-## Our Approach
-To manage a team of 11 people, it was important we chose the right tools for the job. We used Github for software version control, used Jira for User Stories and a Kanban board, and used Figma for UI Mockups before they were created in our Java Application.
+## The Process
 
-One of the most important takeaways from this class was the utility of Design Patterns. The most prevalent ones for this project were ORMs, DAOs, and the Facade patterns. These three together managed all interactions with the SQL Database.  The ORM objects mapped to the individual rows of a given table, the DAOs managed all communication with those tables, and the Facade hid all of those interactions behind a singular Singleton so that the rest of the program did not need to know anything about the database beyond what it needed to give/get from it.
-                       
+The first step to this process is the mapping. Using the LiDAR, we were able to take note of the walls could see. Then, we looked for the frontier, the boundary between what we could and couldn't see. We used OpenCV to find the centroid of this boundary, and set that as the robot's target position. We utilized the A* algorithm to find the shortest path to this point, using a modified heuristic to encourage the robot to stay away from the walls as much as possible, as well as discourage turning as much as possible. Path following was then executed using the Pure Pursuit algorithm, which tracks a position some distance ahead of the robot on the path, allowing the robot to preempt turns and make adjustments accordingly. The robot then repeats this procedure until no more accessible frontiers can be found. Videos of this, both of the robot, and of what the robot sees (shown using ROS Visualization, or RViz) can be seen above.
 
-## Lesson Learned
-
-The class being so work intensive meant that there was a lot to learn. For sure the hardest part of the class was managing splitting all the work between the 11 of us, but once we got comfortable with the pacing of the Sprints, we stopped having to grind on the last day before each submission. 
+Once the robot completes the mapping procedure is complete, we use A* once more to find our way back to the position we started in. Then, we pick up the robot and move it elsewhere within the maze. The robot spins in place, collecting data until it is confident that it knows where on the map it is, then waits for a target position to be assigned. It pathfinds back, stopping occasionally to confirm its position and the optimality of its path. A video of this, very nicely edited by one of my teammates, can also be found above.

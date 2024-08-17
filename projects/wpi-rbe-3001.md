@@ -11,13 +11,11 @@ tags:
   - ["OpenCV", "#121212"]
 featured: false
 priority: 2
-type: Robot Control
+type: Robot
 type_icon: Linux
-responsibilities: DH-Convention, Forward Kinematics, Inverse Kinematics, Jacobian
 team_size: 3
 status: Completed Oct 13, 2023
 timeline: Aug 2023 - Oct 2023
-achievements: []
 media:
   - ["/assets/rbe3001/rbe3001-cover-icon.jpg", "The robot arm in home position, out of the way of the camera."]
   - ["/assets/rbe3001/rbe3001-live-track.jpg", "The robot arm live tracking the position of the ball"]
@@ -28,6 +26,6 @@ links:
 
 
 ## Description
-During my junior year of college, I took Robotics 3001: Manipulation. This is a course that focuses on the controls of multi-degree of freedom manupulators and the related mathematics. Our team was responsible for deriving the forward and inverse kinematics for our 4dof Arm, as well as implementing Velocity and Trajectory-based controls in both Joint Space and Task Space, over the course of the seven-week term.
+During my junior year of college, I took Unified Robotics III: Manipulation. This is a course that focuses on the controls of multi-degree of freedom manupulators and the related mathematics. Our team was responsible for deriving the forward and inverse kinematics for our 4dof Arm, as well as implementing Velocity and Trajectory-based controls in both Joint Space and Task Space, over the course of the seven-week term.
 
 We utilized the Denavit-Hartenberg Convention for calculating the Forward Kinematics, and the full math and writeup for our report can be found in the linked report.
