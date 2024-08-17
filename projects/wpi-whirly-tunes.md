@@ -28,7 +28,7 @@ media:
 links:
   - ["Github", "https://github.com/ksiegall/WhirlyBoi"]
   - ["Paper", "/assets/whirly-tunes/whirly-tunes-paper.pdf"]
-  - ["More Videos", "https://photos.app.goo.gl/TkdWcCBszS1eUAHx7"]
+  - ["Videos", "https://photos.app.goo.gl/TkdWcCBszS1eUAHx7"]
   - ["Website", "https://wp.wpi.edu/musicalmachines/2023/12/17/whirly-tunes/"]
 
 ---

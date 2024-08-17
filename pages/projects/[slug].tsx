@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import { FaClock, FaDesktop, FaLink,  FaMedal, FaTasks, FaUserAstronaut, FaUsers, FaSteam, FaBook, FaWindows, FaDoorOpen } from "react-icons/fa"
+import { FaClock, FaDesktop, FaLink,  FaMedal, FaTasks, FaUserAstronaut, FaUsers, FaSteam, FaBook, FaWindows, FaDoorOpen, FaGithub } from "react-icons/fa"
 import PageContainer from '../../components/page-container'
 import { CardInner, CardOuter } from '../../components/card'
 import { getProjectData, getProjectPaths } from '../api/projects-static'
@@ -7,13 +7,15 @@ import Badge from './../../components/badge';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import {EffectFlip, Navigation, Pagination } from 'swiper/modules';
 import { Project } from '../api/projects-static';
+import { GoVideo } from "react-icons/go";
 import React from 'react';
 
 const iconClass= "text-primary inline ml-2 mb-1"
 const iconButton= "text-primary ml-2 mb-1 text-white"
 const iconMap : Record<string, JSX.Element> = {
     "Website": <div className="p-4 rounded-lg bg-primary"><FaLink /></div>,
-    "Github": <div className="p-4 rounded-lg bg-primary"><FaLink /></div>,
+    "Github": <div className="p-4 rounded-lg bg-primary"><FaGithub /></div>,
+    "Videos": <div className="p-4 rounded-lg bg-primary"><GoVideo /></div>,
     "Steam": <div style={{backgroundColor: '#422c59'}} className={iconButton+" p-4 rounded-lg text-xl"}><FaSteam /></div>,
     "Paper": <div className={iconButton+"bg-primary p-4 rounded-lg text-xl"}><FaBook /></div>,
     "windows": <FaWindows className={iconClass+" text-primary ml-auto mr-auto"} />,
