@@ -19,8 +19,8 @@ status: Completed May 3, 2023
 timeline: Mar 2023 - May 2023
 achievements: []
 media:
-  - ["/assets/rbe3001/rbe3001-cover-icon", "The robot arm in home position, out of the way of the camera."]
-  - ["/assets/rbe3001/rbe3001-live-track", "The robot arm live tracking the position of the ball"]
+  - ["/assets/rbe3001/rbe3001-cover-icon.jpg", "The robot arm in home position, out of the way of the camera."]
+  - ["/assets/rbe3001/rbe3001-live-track.jpg", "The robot arm live tracking the position of the ball"]
 links:
   - ["Paper", "/assets/rbe3001/rbe3001-final-report.pdf"]
 
