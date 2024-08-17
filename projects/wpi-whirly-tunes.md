@@ -23,8 +23,6 @@ media:
   - ["/assets/whirly-tunes/whirly-tunes-single.jpg", "A single motor + tube assembly."]
   - ["/assets/whirly-tunes/whirly-tunes-demo.mp4", "A clip of us demoing our final robot to the class."]
   - ["/assets/whirly-tunes/whirly-tunes-wires.jpg", "Our electronics for a single module, which controls 4 motors."]
-  - ["/assets/whirly-tunes/whirly-tunes-performance-1.mp4", "Our robot performing a piece specifically composed for it."]
-  - ["/assets/whirly-tunes/whirly-tunes-performance-2.mp4", "Since our motors are quite loud, this second piece turns off the motors when they are not being played, which gives the instrument a different feeling."]
 links:
   - ["Github", "https://github.com/ksiegall/WhirlyBoi"]
   - ["Paper", "/assets/whirly-tunes/whirly-tunes-paper.pdf"]

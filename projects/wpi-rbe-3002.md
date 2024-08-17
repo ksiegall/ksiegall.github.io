@@ -1,35 +1,30 @@
 ---
 title: Brigham and Women's Hospital Application
 slug: wpi-rbe-3002
-cover: "/assets/wpi-soft-eng-icon.jpg"
+cover: "/assets/rbe3002/rbe3002-cover-icon.jpg"
 excerpt: Full Featured Kiosk Application for Brigham and Women's Hospital, made during WPI's CS 3733 Software Engineering class.
 roles: Lead Software Engineer
 color: "#320032"
 tags:
   - ["Git", "#E94F36"]
-  - ["Agile", "#121212"]
-  - ["Java", "#121212"]
-  - ["JavaFX", "#1F4277"]
-  - ["SQL", "#0000CC"]
-  - ["Figma", "#1F4277"]
-  - ["AWS", "#081A32"]
-  - ["CSS", "#1F4277"]
+  - ["ROS", "#121212"]
+  - ["SLAM", "#121212"]
+  - ["Python", "#1F4277"]
+  - ["Navigation", "#0000CC"]
+  - ["Linux", "#1F4277"]
 featured: true
 priority: 1
 type: PC Application
 type_icon: windows
 responsibilities: Class Structure, Front-End Development, Database Interaction (SQL)
 team_size: 11
-status: Completed May 3, 2023
-timeline: Mar 2023 - May 2023
+status: Completed Dec 13, 2023
+timeline: Oct 2023 - Dec 2023
 achievements: []
 media:
-  - ["/assets/wpi-soft-eng-trailer.mp4", "The trailer for our hospital application."]
-  - ["/assets/wpi-soft-eng-team.png", "The 11 members of my team for WPI's Soft Eng class"]
-  - ["/assets/wpi-soft-eng-figma.jpg", "A Screenshot from our Figma Mockup of the UI, showing the application's homepage"]
-  - ["/assets/wpi-soft-eng-jira.png", "A Screenshot from our Jira page, showing some of our user stories from Iteration 3"]
+  - ["/assets//assets/rbe3002/", "The trailer for our hospital application."]
 links:
-  - ["Github", "https://github.com/ksiegall/Soft-Eng-Hospital-App"]
+  - ["Paper", "/assets/rbe3002/wpi-rbe-3002-paper"]
 
 ---
 
