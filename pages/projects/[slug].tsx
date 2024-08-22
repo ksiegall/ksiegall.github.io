@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import { FaClock, FaDesktop, FaLink,  FaMedal, FaTasks, FaUserAstronaut, FaUsers, FaSteam, FaBook, FaWindows, FaDoorOpen } from "react-icons/fa"
+import { FaClock, FaDesktop, FaLink,  FaMedal, FaTasks, FaUserAstronaut, FaUsers, FaSteam, FaBook, FaWindows, FaDoorOpen, FaGithub } from "react-icons/fa"
 import PageContainer from '../../components/page-container'
 import { CardInner, CardOuter } from '../../components/card'
 import { getProjectData, getProjectPaths } from '../api/projects-static'
@@ -7,15 +7,17 @@ import Badge from './../../components/badge';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import {EffectFlip, Navigation, Pagination } from 'swiper/modules';
 import { Project } from '../api/projects-static';
+import { GoVideo } from "react-icons/go";
 import React from 'react';
 
 const iconClass= "text-primary inline ml-2 mb-1"
 const iconButton= "text-primary ml-2 mb-1 text-white"
 const iconMap : Record<string, JSX.Element> = {
-    "Website": <div className="p-4 rounded-lg bg-primary"><FaLink />Website</div>,
-    "Github": <div className="p-4 rounded-lg bg-primary"><FaLink />Github</div>,
-    "Steam": <div style={{backgroundColor: '#422c59'}} className={iconButton+" p-4 rounded-lg text-xl"}><FaSteam />Steam Page</div>,
-    "Paper": <div className={iconButton+"bg-primary p-4 rounded-lg text-xl"}><FaBook />Paper</div>,
+    "Website": <div className="p-4 rounded-lg bg-primary"><FaLink /></div>,
+    "Github": <div className="p-4 rounded-lg bg-primary"><FaGithub /></div>,
+    "Videos": <div className="p-4 rounded-lg bg-primary"><GoVideo /></div>,
+    "Steam": <div style={{backgroundColor: '#422c59'}} className={iconButton+" p-4 rounded-lg text-xl"}><FaSteam /></div>,
+    "Paper": <div className="p-4 rounded-lg bg-primary"><FaBook /></div>,
     "windows": <FaWindows className={iconClass+" text-primary ml-auto mr-auto"} />,
     "escape": <FaDoorOpen className={iconClass} />,
 };
@@ -67,7 +69,7 @@ const ProjectPage: NextPage<ProjectProps> = ({project}) => {
         <div className="flex flex-col gap-4 lg:gap-2 lg:flex-row w-full sm:w-11/12 lg:w-10/12 mr-10 ml-10 mt-5 mb-5">
             <CardOuter override className="h-fit sm:flex-initial backdrop-blur-sm sm:min-w-[250px] w-full ml-auto mr-auto sm:w-full lg:w-[30%] ">
                 <CardInner type="" className="flex flex-col p-0 pl-0 pt-0 pb-0 pr-0 text-left">
-                    <h3 className="text-primary text-xs font-medium">Project Type
+                    <h3 className="text-primary text-xs font-medium">Project Type 
                         {iconMap[project.type_icon] || <FaDesktop className={iconClass} />}
                     </h3>
                     <p className="text-sm font-medium mb-5">{project.type}</p>
@@ -79,20 +81,20 @@ const ProjectPage: NextPage<ProjectProps> = ({project}) => {
                         <FaUsers className={iconClass} />
                     </h3>
                     <p className="text-md font-medium mb-5">{project.team_size}</p>
-                    <h3 className="text-primary text-xs font-medium">Additional Responsibilities
+                    {/* <h3 className="text-primary text-xs font-medium">Additional Responsibilities
                         <FaTasks className={iconClass} />
                     </h3>
-                    <p className="text-sm font-medium mb-5">{project.responsibilities}</p>
+                    <p className="text-sm font-medium mb-5">{project.responsibilities}</p> */}
                     <h3 className="text-primary text-xs font-medium">Timeline
                         <FaClock className={iconClass} />
                     </h3>
                     <p className="text-sm font-medium mb-5">{project.timeline}</p>
-                    <h3 className="text-primary text-xs font-medium">Achievements
+                    {/* <h3 className="text-primary text-xs font-medium">Achievements
                         <FaMedal className={iconClass} />
                     </h3>
                     <ul className="text-sm font-medium mb-5">{project.achievements.map(a => {
                         return <li>• {a}</li>
-                    })}</ul>
+                    })}</ul> */}
 
                 </CardInner>
             </CardOuter>

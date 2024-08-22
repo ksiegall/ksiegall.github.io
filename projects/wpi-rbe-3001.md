@@ -1,7 +1,7 @@
 ---
 title: Automated Object Sorting with a 4-DOF Arm Robot
 slug: wpi-rbe-3001
-cover: "/assets/rbe3001-cover-icon.jpg"
+cover: "/assets/rbe3001/rbe3001-cover-icon.jpg"
 excerpt: A four-degree-of-freedom robotic arm programmed with a camera to sort balls by color.
 roles: Programmer
 color: "#320032"
@@ -9,18 +9,16 @@ tags:
   - ["Git", "#E94F36"]
   - ["MATLAB", "#121212"]
   - ["OpenCV", "#121212"]
-featured: true
-priority: 1
-type: PC Application
-type_icon: linux
-responsibilities: DH-Convention, Forward Kinematics, Inverse Kinematics, Jacobian
-team_size: 11
-status: Completed May 3, 2023
-timeline: Mar 2023 - May 2023
-achievements: []
+featured: false
+priority: 2
+type: Robot
+type_icon: Linux
+team_size: 3
+status: Completed Oct 13, 2023
+timeline: Aug 2023 - Oct 2023
 media:
-  - ["/assets/rbe3001/rbe3001-cover-icon", "The robot arm in home position, out of the way of the camera."]
-  - ["/assets/rbe3001/rbe3001-live-track", "The robot arm live tracking the position of the ball"]
+  - ["/assets/rbe3001/rbe3001-cover-icon.jpg", "The robot arm in home position, out of the way of the camera."]
+  - ["/assets/rbe3001/rbe3001-live-track.jpg", "The robot arm live tracking the position of the ball"]
 links:
   - ["Paper", "/assets/rbe3001/rbe3001-final-report.pdf"]
 
