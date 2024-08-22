@@ -28,6 +28,9 @@ links:
 
 
 ## Description
-During my junior year of college, I took Robotics 3001: Manipulation. This is a course that focuses on the controls of multi-degree of freedom manupulators and the related mathematics. Our team of 3 was responsible for deriving the forward and inverse kinematics for our 4dof Arm, as well as implementing Velocity and Trajectory-based controls in both Joint Space and Task Space, over the course of the seven-week term.
+During my junior year of college, I took Robotics Engineering 3001: Manipulation. This is a course that focuses on the controls of multi-degree of freedom manupulators and the related mathematics. 
 
-We utilized the Denavit-Hartenberg Convention for calculating the Forward Kinematics, and the full math and writeup for our report can be found in the linked report.
+Our team of 3 was responsible for deriving the forward and inverse kinematics for our 4dof Arm, as well as implementing Velocity and Trajectory-based controls in both Joint Space and Task Space, over the course of the seven-week term.
+We utilized the Denavit-Hartenberg Convention for calculating the Forward Kinematics.
+
+The full math and writeup for our report can be found in the linked report. Please note that the github link found in the report no longer functions. (It was originally included for the grader's convenience)
