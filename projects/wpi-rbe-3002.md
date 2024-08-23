@@ -3,7 +3,7 @@ title: Robot Navigation - SLAM and AMCL
 slug: wpi-rbe-3002
 cover: "/assets/rbe3002/rbe3002-cover-icon.jpg"
 excerpt: Full Featured Kiosk Application for Brigham and Women's Hospital, made during WPI's CS 3733 Software Engineering class.
-roles: Lead Software Engineer
+roles: Programmer
 color: "#320032"
 tags:
   - ["Git", "#E94F36"]

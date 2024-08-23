@@ -4,7 +4,7 @@ export default function Elec(props: any) {
             <img src={'/assets/logo.png'}  
                         style={{maxHeight: 150, maxWidth: 150}}
                         className="mt-3 flex-none bulb"
-                        alt="Mikel's personal logo - a programmer terminal, gear, and checkox inside a lightbulb" />
+                        alt="Kay's Logo, A burning piece of wood with a smiley face" />
         
             <div className="elec h-[150vh] ml-[74.75px]"></div>
         </div>

@@ -3,7 +3,7 @@ title: Bomberman AI
 slug: wpi-bomberman-ai
 cover: "/assets/rbe470x/wpi-bomberman-icon.jpg"
 excerpt: Full Featured Kiosk Application for Brigham and Women's Hospital, made during WPI's CS 3733 Software Engineering class.
-roles: Lead Software Engineer
+roles: Programmer
 color: "#320032"
 tags:
   - ["Git", "#E94F36"]
@@ -44,41 +44,5 @@ The first thing we wanted to do was ensure that our player knew to approach the 
 
 The next part of the project was not nearly as simple. We were asked to implement Reinforcement Learning, either using by use of a library or manually. We chose a manual implementation, since I thought it would be just as difficult to use PyTorch or another similar library as it would be to do it ourselves. Also, in my own (very biased) opinion, it would be more fun.
 
-Our Reinforcement Learning Algorithm of choice was **Q-Learning**, specifically Approximate Q-Learning. Approximate Q-learning is a simplified form of reinforcement learning where the utility of a state is a linear combination of features defined within the state. These features are traditionally normalized between 0 and 1, and should be representative of all the information the model needs in order to survive. The coefficients (weights) for each of these features are iterated on mathematically using the following procedure:
+Our Reinforcement Learning Algorithm of choice was **Q-Learning**, specifically Approximate Q-Learning. Approximate Q-learning is a simplified form of reinforcement learning where the utility of a state is a linear combination of features defined within the state. These features are traditionally normalized between 0 and 1, and should be representative of all the information the model needs in order to survive. The coefficients (weights) for each of these features are iterated on mathematically throughout training.
 
-1. Calculate the current state utility using the linear combination of weights * features
-2. Use the part 1 expectiminimax solution to find next turn's best move.
-3. Calculate the state utility of that move, and account for gamma, which slightly devalues rewards that *might* come farther in the future.
-4. Compare that with the current state utility + the expected reward from that action.
-5. Multiply the feature value by that difference, account for the learning rate.
-6. Update the weights by adding that result to the previous weights.
-
-
-
-### Our Features
-
-
-- "distToExit",     # 1/(1+dist)
-- "numTurnsLeft",   # proportion of turns left in game
-- "freePathToExit", # bool
-- "dirGoalNegX",    # me.x - exitcell_x / width
-- "dirGoalPosX",    # me.x - exitcell_x / width
-- "dirGoalNegY",    # me.y - exitcell_y / height
-- "dirGoalPosY",    # me.y - exitcell_y / height
-- "distToRandomMonster", # 1 / (1+dist)^2
-- "distToAggressiveMonster", # 1/(1+dist)^2
-- "numMonsters",    # int -- numMonsters / initial number of monsters
-- "dirRandomNegX",  # me.x - monster_x / width
-- "dirRandomPosX",  # me.x - monster_x / width
-- "dirRandomNegY",  # me.y - monster_y / height
-- "dirRandomPosY",  # me.y - monster_y / height
-- "dirAggressiveNegX", # me.x - monster_x / width
-- "dirAggressivePosX", # me.x - monster_x / width
-- "dirAggressiveNegY", # me.y - monster_y / height
-- "dirAggressivePosY", # me.y - monster_y / height
-- "wallInBombPath", # 0.25 per direction with bomb
-- "bombHitWall",    # bool
-- "bombHitMonster", # bool
-- "bombHitChar",    # bool
-- "charKilledByMonster", # bool
-- "charWins"        # bool
