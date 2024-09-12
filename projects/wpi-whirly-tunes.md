@@ -11,7 +11,7 @@ tags:
   - ["Solidworks", "#121212"]
   - ["Raspberry Pi", "#121212"]
 featured: true
-priority: 1
+priority: 3
 type: Robot
 type_icon: Windows
 team_size: 4

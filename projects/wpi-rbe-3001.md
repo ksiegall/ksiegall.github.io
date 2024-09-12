@@ -10,7 +10,7 @@ tags:
   - ["MATLAB", "#121212"]
   - ["OpenCV", "#121212"]
 featured: false
-priority: 2
+priority: 6
 type: Robot
 type_icon: Linux
 team_size: 3

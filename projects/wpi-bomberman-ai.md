@@ -2,15 +2,16 @@
 title: Bomberman AI
 slug: wpi-bomberman-ai
 cover: "/assets/rbe470x/wpi-bomberman-icon.jpg"
-excerpt: Full Featured Kiosk Application for Brigham and Women's Hospital, made during WPI's CS 3733 Software Engineering class.
+excerpt: Variants of a Bomberman AI, using Adverserial Search and Reinforcement Learning.
 roles: Programmer
 color: "#320032"
 tags:
   - ["Git", "#E94F36"]
   - ["Python", "#0000CC"]
   - ["PyGame", "#1F4277"]
-featured: true
-priority: 1
+  - ["Reinforcement Learning","#1F4277"]
+featured: false
+priority: 5
 type: Python Program
 type_icon: Linux
 team_size: 3
