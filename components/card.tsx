@@ -41,7 +41,7 @@ export function CardInner(props: CardProps) {
     };
 
     return <>
-        <div style={{backgroundColor: props.color || "#2c2c2cCC"}} className={"p-5 m-5 rounded " + shape}>
+        <div style={{backgroundColor: props.color || "#262626FF"}} className={"p-5 m-5 rounded " + shape}>
             <div className={"bg-transparent opacity-100 "+props.className}>
                 {props.children}
             </div>
