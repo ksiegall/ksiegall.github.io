@@ -27,8 +27,12 @@ const Home: NextPage = (props: any) => {
           <CardInner>
               <Hi className="mt-auto mb-auto" />
             <div className="flex flex-wrap align-center justify-center">
-              {/* <video muted autoPlay className="sm:w-6/12 absolute h-40 w-20" src="https://test4.mikel.tech/arcade-foldup-fb.mp4" /> */}
-              <img className="sm:w-6/12" src="/assets/111-coding.png" alt="A web illustration of a smiling coffy cup and a clipboard checklist next to a laptop" />
+              <video autoplay loop muted className="sm:w-6/12" src="/assets/robo-git.gif">
+                A small gif of a few robots chasing each other back and forth.
+              </video>
+              <div className="mt-3 text-sm sm:text-sm ml-5 mr-5 flex flex-col gap-4 mb-5">
+                <p>gif by @harryr_20 on insta</p>
+              </div>
             </div>
             <div className="mt-3 text-sm sm:text-lg ml-5 mr-5 flex flex-col gap-4 mb-5">
               <p>
