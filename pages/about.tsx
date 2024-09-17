@@ -31,6 +31,8 @@ const About: NextPage = () => {
             <br />
             <p className="text-md p-5">I am looking for a full-time position beginning after my graduation in May 2025. 
               I am interested in finding work that matches my experience while leaving room for my skills to develop over time.</p>
+
+            <p className="text-sm p-5">gif on homepage made by @harryr_20 on Instagram</p>
           </div>
         </CardInner>
       </CardOuter>
