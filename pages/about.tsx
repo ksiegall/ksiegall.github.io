@@ -19,7 +19,7 @@ const About: NextPage = () => {
               {/* <p className="sm:hidden text-xs text-gray-300 italic">art by <a href="https://ko-fi.com/makowka" target="_blank">mischa makowka</a></p> */}
             </div>
             <div className="w-full mr-auto ml-auto sm:mt-20 flex flex-col gap-0 text-left p-5">
-              <h3 className="text-primary text-2xl sm:text-4xl">Kay Siegall</h3>
+              <h3 className="text-primary text-2xl sm:text-4xl">Kevin Siegall</h3>
               <h3 className="flex flex-row gap-2 w-full text-primary text-md sm:text-2xl"><span>(they/them)</span> <a className="mt-auto mb-auto text-sm sm:text-md" href="https://en.wikipedia.org/wiki/Preferred_gender_pronoun" target="_blank"><FaQuestionCircle /></a></h3>
               {/* <p className="hidden sm:block text-xs text-gray-300 italic">↖️ art by <a href="https://ko-fi.com/makowka" target="_blank">mischa makowka</a></p> */}
             </div>
