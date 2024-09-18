@@ -20,7 +20,7 @@ export default function Nav(props: any) {
                 <Link href="/" className="flex flex-row flex-1 text-left justify-left">
                     <div className="flex flex-col flex-grow text-center lg:text-left">
                         <h2 className="text-3xl">
-                            Kay Siegall
+                            Kevin Siegall
                         </h2>
                         <h3 className="text-xs">
                             {'Roboticist • Software Engineer'}
