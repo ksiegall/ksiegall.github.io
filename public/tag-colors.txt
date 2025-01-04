@@ -5,7 +5,7 @@ CATEGORY: Conceptual
 ---------------------
 Agile - #009FDA
 UI/UX Design - #ff7262
-Project Management - #00FF00
+Project Management - #32a852
 Robot Localization - #EE7F1B
 Motion Planning - #0082C4
 Reinforcement Learning - #265400

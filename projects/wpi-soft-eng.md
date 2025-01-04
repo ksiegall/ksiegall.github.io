@@ -6,7 +6,7 @@ excerpt: Full Featured Kiosk Application to assist in navigating Brigham and Wom
 roles: Lead Software Engineer
 color: "#320032"
 tags:
-  - ["Project Management", "#00FF00"]
+  - ["Project Management", "#32a852"]
   - ["Agile", "#009FDA"]
   - ["UI/UX Design", "#ff7262"]
   - ["Java", "#543210"]

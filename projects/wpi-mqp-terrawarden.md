@@ -22,7 +22,7 @@ media:
   - ["/assets/mqp/cad.png", "The CAD Model of our drone and manipulator"]
   - ["/assets/mqp/realsense_output.png", "A sample output from the intel realsense camera"]
 links:
-#   - ["Paper", "/assets/rbe474x/report.pdf"]
+  - ["", ""]
 
 ---
 

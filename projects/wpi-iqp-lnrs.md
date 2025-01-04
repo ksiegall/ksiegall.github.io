@@ -1,13 +1,13 @@
 ---
 title: Recommendations for Local Nature Recovery Strategies (LNRS) in Worcestershire, UK
-slug: wpi-iqp-lnrs.md
+slug: wpi-iqp-lnrs
 cover: "/assets/iqp/worcestershire.png"
 excerpt: A humanitarian project focusing on the effect of Green Spaces on residents in Worcestershire, UK. 
 roles: Researcher
 color: "#320032"
 tags:
-  - ["Project Management", "#f89820"]
-  - ["Python", "#76B900"]
+  - ["Project Management", "#32a852"]
+  - ["Python", "#f89820"]
 featured: false
 priority: 5
 type: Research Paper
