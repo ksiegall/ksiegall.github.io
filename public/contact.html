@@ -46,30 +46,53 @@
         font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Montserrat', 'Helvetica Neue', sans-serif;
         font-size: 1rem;
     }
-</style>
+    </style>
+    <script type="text/javascript">
+        function sendEmail() {
+            their_name = document.getElementById("their-name").value;
+            their_email = document.getElementById("their-email").value;
+            email_content = document.getElementById("email-content").value;
+            message_body = "You have received an message on your website!"
+                    + "\nTimestamp: " + new Date().toISOString()
+                    + "\n\nMessage From: " + their_name
+                    + "\nEmail: " + their_email
+                    + "\nMessage Content:\n" + email_content; 
+            Email.send({
+                Host: "smtp.gmail.com",
+                Username: "digimonlord2@gmail.com",
+                Password: "tberswldrhjgkffn",
+                To: 'k@siegall.tech',
+                From: "digimonlord2@gmail.com",
+                Subject: "Message from your website!",
+                Body: message_body,
+            })
+                .then(function (message) {
+                    alert("Thanks for reaching out! I'll get back to you as soon as I can!")
+                });
+        }
+    </script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
 </head>
 <body>
   <section data-bs-version="5.1" class="form5 cid-twlqqHF8CE" id="form5-1">
     <div class="container">
         <div class="row justify-content-center mt-4">
-            <div class="mx-auto mbr-form" data-form-type="formoid">
+            <div class="mx-auto mbr-form" data-form-type=""> 
                 <!-- TODO: SET UP FORMOID FORM -->
-                <form style="margin: auto"action="https://formoid.net/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value=""> 
-                    <div class="row">
-                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for reaching out! I'll get back to you as soon as I can.</div>
-                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
-                            Oops...! some problem!
-                        </div>
+                <form style="margin: auto" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"> 
+                    <div class="col-12 form-group mb-3" data-for="name">
+                        <input type="textarea" name="name" placeholder="Your Name" class="form-control" value="" id="their-name">
                     </div>
                     <div class="dragArea row">
                         <div class="col-12 form-group mb-3" data-for="email">
-                            <input type="email" name="email" placeholder="Your Email" data-form-field="email" class="form-control" value="" id="email-form5-1">
+                            <input type="email" name="email" placeholder="Your Email" class="form-control" value="" id="their-email">
                         </div>
                         <div class="col-12 form-group mb-3" data-for="textarea">
-                            <textarea name="textarea" placeholder="Message" data-form-field="textarea" class="form-control" id="textarea-form5-1"></textarea>
+                            <textarea type="textarea" placeholder="Message" class="form-control" id="email-content"></textarea>
                         </div>
                         <div class="col-12 col-md-12 align-center mbr-section-btn">
-                            <button type="submit" class="btn btn-primary display-4">Send message</button>
+                            <button type="submit" onclick="sendEmail()" class="btn btn-primary display-4">Send message</button>
                         </div>
                     </div>
                 </form>

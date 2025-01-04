@@ -6,9 +6,10 @@ excerpt: A simple and intuitive robot control library used for education.
 roles: Lead Software Engineer
 color: "#320032"
 tags:
-  - ["Git", "#E94F36"]
-  - ["Python", "#121212"]
-  - ["MicroPython", "#121212"]
+  - ["Project Management", "#00FF00"]
+  - ["Python", "#f89820"]
+  - ["Microcontrollers", "#C51A4A"]
+  - ["Git", "#24292e"]
 featured: true
 priority: 1
 type: Robot

@@ -6,16 +6,16 @@ excerpt: Variants of a Bomberman AI, using Adverserial Search and Reinforcement 
 roles: Programmer
 color: "#320032"
 tags:
-  - ["Git", "#E94F36"]
-  - ["Python", "#0000CC"]
-  - ["PyGame", "#1F4277"]
-  - ["Reinforcement Learning","#1F4277"]
+  - ["Python", "#f89820"]
+  - ["Simulation", "#76B900"]
+  - ["Reinforcement Learning","#265400"]
+  - ["Git", "#24292e"]
 featured: false
 priority: 5
 type: Python Program
 type_icon: Linux
 team_size: 3
-status: Completed May 3, 2024
+status: Completed Mar 3, 2024
 timeline: Jan 2024 - Mar 2024
 media:
   - ["/assets/rbe470x/wpi-bomberman-gameplay.jpg", "A screenshot of our AI playing the game"]

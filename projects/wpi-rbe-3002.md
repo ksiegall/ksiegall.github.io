@@ -6,13 +6,12 @@ excerpt: A robot to navigate, map, and localize within its environment.
 roles: Programmer
 color: "#320032"
 tags:
-  - ["Git", "#E94F36"]
-  - ["ROS", "#121212"]
-  - ["SLAM", "#121212"]
-  - ["Python", "#1F4277"]
-  - ["Navigation", "#121212"]
-  - ["WSL", "#121212"]
-  - ["Linux", "#1F4277"]
+  - ["ROS", "#22314E"]
+  - ["Robot Localization", "#EE7F1B"]
+  - ["Motion Planning", "#0082C4"]
+  - ["Python", "#f89820"]
+  - ["Linux", "#ffcc33"]
+  - ["Git", "#24292e"]
 featured: true
 priority: 2
 type: Robot

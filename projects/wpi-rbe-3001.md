@@ -6,9 +6,10 @@ excerpt: A four-degree-of-freedom robotic arm programmed with a camera to sort b
 roles: Programmer
 color: "#320032"
 tags:
-  - ["Git", "#E94F36"]
-  - ["MATLAB", "#121212"]
-  - ["OpenCV", "#121212"]
+  - ["Motion Planning", "#0082C4"]
+  - ["MATLAB", "#015696"]
+  - ["Computer Vision", "#18aaaa"]
+  - ["Git", "#24292e"]
 featured: false
 priority: 6
 type: Robot

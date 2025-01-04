@@ -6,10 +6,10 @@ excerpt: A unique robotic instrument based on a children's toy from the 80s.
 roles: Programming Lead
 color: "#320032"
 tags:
-  - ["Git", "#E94F36"]
-  - ["Python", "#121212"]
-  - ["Solidworks", "#121212"]
-  - ["Raspberry Pi", "#121212"]
+  - ["CAD", "#DA291C"]
+  - ["Microcontrollers", "#C51A4A"]
+  - ["Python", "#f89820"]
+  - ["Git", "#24292e"]
 featured: true
 priority: 3
 type: Robot

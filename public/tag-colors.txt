@@ -1,0 +1,32 @@
+Git - #24292e
+CAD - #DA291C
+
+CATEGORY: Conceptual
+---------------------
+Agile - #009FDA
+UI/UX Design - #ff7262
+Project Management - #00FF00
+Robot Localization - #EE7F1B
+Motion Planning - #0082C4
+Reinforcement Learning - #265400
+Deep Learning - #1818aa
+Computer Vision - #18aaaa
+Simulation - #76B900
+Object-Oriented Programming - #b00ba5
+
+CATEGORY: PLATFORMS
+-------------------
+AWS - #FF9900
+Linux - #ffcc33
+Microcontroller - #C51A4A
+
+CATEGORY: LANGUAGES
+-------------------
+Java - #543210 
+Python - #f89820 
+C/C++ - #3949AB
+C# - #684D95
+MATLAB - #015696
+TypeScript - #3178C6
+SQL - #00758F
+ROS/ROS2 - #22314E
