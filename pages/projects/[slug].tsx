@@ -91,10 +91,10 @@ const ProjectPage: NextPage<ProjectProps> = ({project}) => {
                     <p className="text-sm font-medium mb-5">{project.timeline}</p>
                     {/* <h3 className="text-primary text-xs font-medium">Achievements
                         <FaMedal className={iconClass} />
-                    </h3>
-                    <ul className="text-sm font-medium mb-5">{project.achievements.map(a => {
+                    </h3>*/}
+                    (!Array.isArray(project.achievements) || project.achievements.length == 0)? :<ul className="text-sm font-medium mb-5">{project.achievements.map(a => {
                         return <li>• {a}</li>
-                    })}</ul> */}
+                    })}</ul> 
 
                 </CardInner>
             </CardOuter>

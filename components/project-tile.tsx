@@ -10,7 +10,7 @@ export default function ProjectTile(props: any) {
             <div className="w-80 p-2 mb-4 text-center bg-[#121212] text-sm font-bold rounded-sm">
             {props.title}
             </div>
-            <a href={`/projects/${props.slug}`}>
+            <a className="min-h-80" href={`/projects/${props.slug}`}>
                 <img    className="w-full max-w-80 rounded-sm border-2" 
                         style={{borderColor: props.color}}  
                         title={props.title} 

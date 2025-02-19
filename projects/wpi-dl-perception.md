@@ -2,7 +2,7 @@
 title: Semantic Segmentation Using Deep Learning
 slug: wpi-dl-perception
 cover: "/assets/rbe474x/window.png"
-excerpt: DL-Based video processing to detect racing drone gates
+excerpt: Deep Learning-Based video processing to detect racing drone gates
 roles: Programmer
 color: "#320032"
 tags:
