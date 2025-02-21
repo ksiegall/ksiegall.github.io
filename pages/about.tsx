@@ -49,7 +49,7 @@ const About: NextPage = () => {
             <Button className="w-20 sm:w-80 flex flex-row justify-center m-auto gap-2 text-lg" href="https://www.linkedin.com/in/kevin-siegall/"><FaLinkedin className="mt-auto mb-auto" /><span className="hidden sm:block">LinkedIn</span></Button>
           </div>
           <div className="justify-center w-full sm:w-10/12 h-[70vw]">
-            <iframe className="w-full sm:w-10/12 h-[70vw]" src="https://drive.google.com/file/d/1VY10ZYyIY5cgoa7Oni-IxEIEDuw3nJ2D/preview">Failed to load resume - download <a href="/resume.pdf" target="_blank">here</a></iframe>
+            <iframe className="w-full sm:w-10/12 h-[70vw]" src="https://drive.google.com/file/d/1bC0MNl8rGG096pHY3Vx_pQSIkB7RKY_z/preview">Failed to load resume - download <a href="/resume.pdf" target="_blank">here</a></iframe>
           </div>
         </CardInner>
       </CardOuter>

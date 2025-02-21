@@ -10,8 +10,8 @@ tags:
   - ["Computer Vision", "#18aaaa"]
   - ["Deep Learning","#1818aa"]
   - ["Git", "#24292e"]
-featured: false
-priority: 5
+featured: true
+priority: 2
 type: Python Program
 type_icon: Linux
 team_size: 3

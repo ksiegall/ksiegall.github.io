@@ -14,7 +14,7 @@ tags:
   - ["AWS", "#FF9900"]
   - ["Git", "#E94F36"]
 featured: false
-priority: 4
+priority: 7
 type: PC Application
 type_icon: windows
 team_size: 11

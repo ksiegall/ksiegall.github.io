@@ -3,7 +3,7 @@ title: The Hand Machine
 slug: hand-machine
 cover: "/assets/hand-machine/hand_machine.jpg"
 excerpt: A hand gesture controlled claw machine. Made for GoatHACKS 2025. 
-roles: Researcher
+roles: Team Member
 color: "#320032"
 tags:
   - ["Python", "#f89820"]
@@ -11,19 +11,19 @@ tags:
   - ["Microcontroller", "#c51a4a"]
   - ["Git", "#24292e"]
   - ["CAD", "#da291c"]
-featured: false
-priority: 5
+featured: true
+priority: 3
 type: Robot
 type_icon: Linux
-team_size: 4
+team_size: 3
 status: Completed Jan 19, 2025
 timeline: Jan 17th - 19th, 2025
 media:
   - ["/assets/hand-machine/hand_machine.jpg", "Our hand gesture-controlled claw machine, built using 3d printer parts"]
-  - ["https://youtu.be/0YpibTBLqx0?si=VHiYC-AKQ90wdrPP", "A video demo of the Hand Machine working"]
+  - ["https://www.youtube.com/embed/0YpibTBLqx0", "A video demo of the Hand Machine working"]
   - ["/assets/hand-machine/team.jpg", "That's Us! We're the team who wins!"]
-  - ["/assets/hand-machine/another_view.jpg", "Another view of the hand machine"]
-  - ["/assets/hand-machine/another_another_view.jpg", "Yet another view of the hand machine"]
+  # - ["/assets/hand-machine/another_view.jpg", "Another view of the hand machine"]
+  - ["/assets/hand-machine/another_another_view.jpg", "Another view of the hand machine"]
   - ["/assets/hand-machine/guts.jpg", "The guts of the hand machine"]
 links:
   - ["Website", "https://devpost.com/software/hand-machine"]

@@ -92,9 +92,9 @@ const ProjectPage: NextPage<ProjectProps> = ({project}) => {
                     {/* <h3 className="text-primary text-xs font-medium">Achievements
                         <FaMedal className={iconClass} />
                     </h3>*/}
-                    (!Array.isArray(project.achievements) || project.achievements.length == 0)? :<ul className="text-sm font-medium mb-5">{project.achievements.map(a => {
+                    {/* {(!Array.isArray(project.achievements) || project.achievements.length == 0)? :<ul className="text-sm font-medium mb-5">{project.achievements.map(a => {
                         return <li>• {a}</li>
-                    })}</ul> 
+                    })}</ul> } */}
 
                 </CardInner>
             </CardOuter>
@@ -115,9 +115,11 @@ const ProjectPage: NextPage<ProjectProps> = ({project}) => {
                             onSlideChange={() => console.log('slide change')}
                             onSwiper={(swiper) => console.log(swiper)}>
                         {project.media.map((t: any) => {
-                            return <SwiperSlide className="flex flex-col items-center align-middle justify-center" key={t[0]}>
+                            return <SwiperSlide className="flex flex-col items-center align-middle justify-center pb-2" key={t[0]}>
+                                {t[1]}
+                                {<p></p>}
                                 {t[0].includes("png") || t[0].includes("jpg") ? 
-                                    <img style={{maxWidth: "80%", margin: "auto", marginBottom: 30}} src={t[0]} alt={t[1]} /> :
+                                    <img style={{maxWidth: "80%", margin: "auto", marginBottom: 30}} src={t[0]} alt={""} /> :
                                  t[0].includes("youtu") ? 
                                     <YouTubeEmbed src={t[0]} /> :
                                  t[0].includes("mp4") ?

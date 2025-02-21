@@ -11,20 +11,20 @@ tags:
   - ["Computer Vision", "#18aaaa"]
   - ["Git", "#24292e"]
 featured: false
-priority: 6
+priority: 10
 type: Robot
 type_icon: Linux
 team_size: 3
 status: Completed Oct 13, 2023
 timeline: Aug 2023 - Oct 2023
 media:
-  - ["/assets/rbe3001/rbe3001-cover-icon.jpg", "The robot arm in home position, out of the way of the camera."]
+  - ["/assets/rbe3001/rbe3001-home-pos.jpg", "The robot arm in home position, out of the way of the camera."]
+  - ["/assets/rbe3001/rbe3001-color-detect.jpg", "The camera's distortion-corrected view of the balls on the checkerboard"]
   - ["/assets/rbe3001/rbe3001-live-track.jpg", "The robot arm live tracking the position of the ball"]
 links:
   - ["Paper", "/assets/rbe3001/rbe3001-final-report.pdf"]
 
 ---
-
 
 ## Description
 During my junior year of college, I took Robotics Engineering 3001: Manipulation. This is a course that focuses on the controls of multi-degree of freedom manupulators and the related mathematics. 

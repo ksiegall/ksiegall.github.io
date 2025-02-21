@@ -10,8 +10,8 @@ tags:
   - ["Microcontrollers", "#C51A4A"]
   - ["Python", "#f89820"]
   - ["Git", "#24292e"]
-featured: true
-priority: 3
+featured: false
+priority: 6
 type: Robot
 type_icon: Windows
 team_size: 4

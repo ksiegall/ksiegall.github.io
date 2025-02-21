@@ -15,7 +15,7 @@ priority: 5
 type: Drone
 type_icon: Linux
 team_size: 6
-status: Completed May 2025 (In Progress)
+status: To Be Completed May 2025 (In Progress)
 timeline: Aug 2024 - May 2025
 media:
   - ["/assets/mqp/drone.jpg", "Our drone with all electronics and manipulator attached"]

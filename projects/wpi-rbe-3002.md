@@ -12,8 +12,8 @@ tags:
   - ["Python", "#f89820"]
   - ["Linux", "#ffcc33"]
   - ["Git", "#24292e"]
-featured: true
-priority: 2
+featured: false
+priority: 4
 type: Robot
 type_icon: Linux
 team_size: 3
@@ -25,10 +25,9 @@ media:
   - ["/assets/rbe3002/rbe3002-rviz.mp4", "A video of what the robot sees while mapping, in 4x speed"]
   - ["/assets/rbe3002/rbe3002-amcl.mp4", "An edited video of the robot solving the kidnapping problem"]
 links:
-  - ["Paper", "/assets/rbe3002/wpi-rbe-3002-paper"]
+  - ["Paper", "/assets/rbe3002/rbe3002-final-report"]
 
 ---
-
 
 # The Fastest Team
 

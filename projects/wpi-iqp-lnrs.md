@@ -9,7 +9,7 @@ tags:
   - ["Project Management", "#32a852"]
   - ["Python", "#f89820"]
 featured: false
-priority: 5
+priority: 9
 type: Research Paper
 type_icon: Windows
 team_size: 4

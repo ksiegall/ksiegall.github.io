@@ -11,7 +11,7 @@ tags:
   - ["Reinforcement Learning","#265400"]
   - ["Git", "#24292e"]
 featured: false
-priority: 5
+priority: 8
 type: Python Program
 type_icon: Linux
 team_size: 3
