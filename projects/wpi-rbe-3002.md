@@ -25,7 +25,7 @@ media:
   - ["/assets/rbe3002/rbe3002-rviz.mp4", "A video of what the robot sees while mapping, in 4x speed"]
   - ["/assets/rbe3002/rbe3002-amcl.mp4", "An edited video of the robot solving the kidnapping problem"]
 links:
-  - ["Paper", "/assets/rbe3002/rbe3002-final-report"]
+  - ["Paper", "/assets/rbe3002/rbe3002-final-report.pdf"]
 
 ---
 
