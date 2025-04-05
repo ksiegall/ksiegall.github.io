@@ -26,4 +26,9 @@ links:
 
 ---
 
-This project is a work in progress. Please check back later!
+This project is a work in progress - an expanded article with more links + videos will be added here soon!
+
+Quick Blurb:
+- Designed and developed an aerial manipulator capable of detecting and collecting litter found on roadsides and highway medians
+- Created a perception stack that uses an Intel RealSense to perform efficient (3ms) bounding box detection in open environments
+- Evaluated YOLOv11 performance across multiple datasets, ultimately deciding to use a custom dataset generated using Blender
