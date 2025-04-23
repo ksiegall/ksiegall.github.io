@@ -25,12 +25,17 @@ const About: NextPage = () => {
             </div>
           </div>
           <div className="text-left">
-            <p className="text-md p-5">I’m a robotics and computer science graduate passionate about building intelligent systems that see, learn, and navigate the real world. 
-              From training drones to collect litter with computer vision to optimizing robot motion through reinforcement learning, 
-              I love turning cutting-edge ML techniques into practical solutions. 
-              When I’m not coding, you’ll find me tinkering with hardware, mentoring STEM students, or cooking up something new - both in and out of the lab.
-            <br />
-            I am looking for a full-time position that matches my experience while leaving room for my skills to develop over time.</p>
+            <p className="text-md p-5">
+                I’m a robotics and computer science graduate passionate about building intelligent systems that see, learn, and navigate the real world. 
+                From training drones to collect litter with computer vision to optimizing robot motion through reinforcement learning, 
+                I love turning cutting-edge ML techniques into practical solutions. 
+                When I’m not coding, you’ll find me tinkering with hardware, mentoring STEM students, or cooking up something new - both in and out of the lab.
+
+                <br />
+                <br />
+
+                I am looking for a full-time position that matches my experience while leaving room for my skills to develop over time.
+            </p>
 
             <p className="text-sm p-5">gif on homepage made by @harryr_20 on Instagram</p>
           </div>
