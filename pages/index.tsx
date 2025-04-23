@@ -31,7 +31,7 @@ const Home: NextPage = (props: any) => {
             </div>
             <div className="mt-3 text-sm sm:text-lg ml-5 mr-5 flex flex-col gap-4 mb-5">
               <p>
-                I’m a Roboticist and Software Engineer with a passion for making things (both silly and practical).
+                I’m a Roboticist and Software Engineer who loves building intelligent systems with computer vision and machine learning to solve real-world challenges.
               </p>
             </div>
           </CardInner>

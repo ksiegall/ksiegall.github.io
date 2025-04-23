@@ -25,9 +25,10 @@ const About: NextPage = () => {
             </div>
           </div>
           <div className="text-left">
-            <p className="text-md p-5">Hey! I'm a Senior at WPI studying Computer Science and Robotics Engineering! 
-                        I specialize in robotics perception and navigation, but I also been dabble in Reinforcement and Deep Learning. 
-                        I create games in my free time for Game Jams that are held on campus, and have a bunch of small side projects to keep myself busy.</p>
+            <p className="text-md p-5">I’m a robotics and computer science graduate passionate about building intelligent systems that see, learn, and navigate the real world. 
+              From training drones to spot litter with computer vision to optimizing robot locomotion through reinforcement learning, 
+              I love turning cutting-edge ML techniques into practical solutions. 
+              When I’m not coding, you’ll find me tinkering with hardware, mentoring STEM students, or cooking up something new - both in and out of the lab.</p>
             <br />
             <p className="text-md p-5">I am looking for a full-time position beginning after my graduation in May 2025. 
               I am interested in finding work that matches my experience while leaving room for my skills to develop over time.</p>
