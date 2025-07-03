@@ -1,7 +1,7 @@
 ---
 title: Terrawarden Drone Cleanup
 slug: wpi-mqp-terrawarden
-cover: "/assets/mqp/drone.jpg"
+cover: "/assets/mqp/drone_thumbnail.jpg"
 excerpt: An aerial manipulator designed to detect, navigate to, and dispose of garbage.
 roles: Programmer
 color: "#320032"
@@ -18,11 +18,15 @@ team_size: 6
 status: To Be Completed May 2025 (In Progress)
 timeline: Aug 2024 - May 2025
 media:
+  - ["https://www.youtube.com/embed/JgRSZfa9o8A", ""]
+  - ["/assets/mqp/99_percent.mp4", "A demo video of our drone *almost* picking up a weighted can in flight"]
+  - ["/assets/mqp/drone_flying.jpg", "The final iteration of our drone, in flight"]
   - ["/assets/mqp/drone.jpg", "Our drone with all electronics and manipulator attached"]
   - ["/assets/mqp/cad.png", "The CAD Model of our drone and manipulator"]
-  - ["/assets/mqp/realsense_output.png", "A sample output from the intel realsense camera"]
+  - ["/assets/mqp/yolo_taco_detection.png", "An example of the poor detection from training solely using the TACO dataset"]
 links:
-  - ["", ""]
+  - ["Video", "https://youtu.be/JgRSZfa9o8A?si=oeynI-PV2X9chbAH"]
+  - ["Paper", "https://digital.wpi.edu/concern/student_works/8c97kw15v"]
 
 ---
 
