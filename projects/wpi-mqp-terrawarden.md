@@ -19,14 +19,14 @@ status: To Be Completed May 2025 (In Progress)
 timeline: Aug 2024 - May 2025
 media:
   - ["https://www.youtube.com/embed/JgRSZfa9o8A", ""]
-  - ["/assets/mqp/99_percent.mp4", "A demo video of our drone *almost* picking up a weighted can in flight"]
+  - ["/assets/mqp/99_percent.mp4", "A demo video of our drone picking up a weighted can in flight"]
   - ["/assets/mqp/drone_flying.jpg", "The final iteration of our drone, in flight"]
-  - ["/assets/mqp/drone.jpg", "Our drone with all electronics and manipulator attached"]
+  - ["/assets/mqp/drone.jpg", "An earlier iteration of our drone"]
   - ["/assets/mqp/cad.png", "The CAD Model of our drone and manipulator"]
   - ["/assets/mqp/training_sample.png", "An example of a blender-rendered training image"]
   - ["/assets/mqp/training_sample_2.png", "A second example of a blender-rendered training image"]
 links:
-  - ["Video", "https://youtu.be/JgRSZfa9o8A?si=oeynI-PV2X9chbAH"]
+  - ["Videos", "https://youtu.be/JgRSZfa9o8A?si=oeynI-PV2X9chbAH"]
   - ["Paper", "https://digital.wpi.edu/concern/student_works/8c97kw15v"]
 
 ---
