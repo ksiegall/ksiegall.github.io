@@ -23,7 +23,8 @@ media:
   - ["/assets/mqp/drone_flying.jpg", "The final iteration of our drone, in flight"]
   - ["/assets/mqp/drone.jpg", "Our drone with all electronics and manipulator attached"]
   - ["/assets/mqp/cad.png", "The CAD Model of our drone and manipulator"]
-  - ["/assets/mqp/yolo_taco_detection.png", "An example of the poor detection from training solely using the TACO dataset"]
+  - ["/assets/mqp/training_sample.png", "An example of a blender-rendered training image"]
+  - ["/assets/mqp/training_sample_2.png", "A second example of a blender-rendered training image"]
 links:
   - ["Video", "https://youtu.be/JgRSZfa9o8A?si=oeynI-PV2X9chbAH"]
   - ["Paper", "https://digital.wpi.edu/concern/student_works/8c97kw15v"]
