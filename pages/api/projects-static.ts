@@ -2,6 +2,7 @@ import { readFileSync } from 'fs'
 import { readdir } from 'fs/promises'
 import matter from 'gray-matter'
 import { remark } from 'remark'
+import remarkGfm from 'remark-gfm'
 import html from 'remark-html'
 
 export interface Project {
@@ -31,6 +32,7 @@ export async function getProjectData(slug: string) {
     const m = matter(f);
 
     const processedContent = await remark()
+    .use(remarkGfm)
     .use(html)
     .process(m.content);
     const contentHtml = processedContent.toString();
