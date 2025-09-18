@@ -11,7 +11,7 @@ tags:
   - ["Deep Learning","#1818aa"]
   - ["Git", "#24292e"]
 featured: true
-priority: 5
+priority: 2
 type: Drone
 type_icon: Linux
 team_size: 6

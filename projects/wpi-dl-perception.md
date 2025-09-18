@@ -11,7 +11,7 @@ tags:
   - ["Deep Learning","#1818aa"]
   - ["Git", "#24292e"]
 featured: true
-priority: 2
+priority: 4
 type: Python Program
 type_icon: Linux
 team_size: 3
