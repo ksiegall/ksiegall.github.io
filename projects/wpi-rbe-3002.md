@@ -13,7 +13,7 @@ tags:
   - ["Linux", "#ffcc33"]
   - ["Git", "#24292e"]
 featured: false
-priority: 4
+priority: 5
 type: Robot
 type_icon: Linux
 team_size: 3
